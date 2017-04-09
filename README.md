@@ -1,17 +1,15 @@
 1. To Compile
-==================================================================================================================================
 	gcc distributedRouting.c -o distributedRouting
 
 	
 2. To Run
-=================================================================================================================================
+
 	./distributedRouting -t topology.txt -i 10
 	Here topology.txt is initial topology for given server and 10 is an update interval in seconds after which given 
 	server sends it distance vector to its immediate neighbors.
 
 
 3. Commands and their descriptions
-=================================================================================================================================
 
 Sr.No	Commands 									Description
 
@@ -31,7 +29,6 @@ Sr.No	Commands 									Description
 7 		crash										Close all connections. This is to simulate server crash.
 
 4. Server Responses
-==================================================================================================================================
 
 <COMMAND> SUCCESS.
 	It means the given command is successfully executed on given server.
